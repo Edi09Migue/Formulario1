@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Botones">17dp</dimen>
+    <dimen name="Titulo">25dp</dimen>
+    <dimen name="Texto">23dp</dimen>
+    <dimen name="EspacioNormal">20dp</dimen>
+    <dimen name="EspacioBotones1">60dp</dimen>
+    <dimen name="EspacioBotones2">130dp</dimen>
+
+
+</resources>

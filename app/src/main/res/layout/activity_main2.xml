@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical" >
+    >
+
+
+    <TextView
+        android:id="@+id/TvConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Datos"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/Titulo"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/EspacioNormal"
+        android:id="@+id/TvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="normal"
+        android:textSize="@dimen/Texto"
+        android:textColor="@color/cardview_dark_background"
+
+
+        />
+
+    <TextView
+        android:id="@+id/TvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="@dimen/Texto"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+
+    <TextView
+        android:id="@+id/TvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="normal"
+        android:textSize="@dimen/Texto"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:id="@+id/TvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="@dimen/Texto"
+        android:textColor="@color/cardview_dark_background"
+
+        />
+
+
+    <TextView
+        android:id="@+id/TvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="normal"
+        android:textSize="@dimen/Texto"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/EspacioBotones2"
+        android:id="@+id/BtnEditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="Editar Datos"
+        android:textStyle="normal"
+        android:textSize="@dimen/Botones"
+
+        />
+
+
+</LinearLayout>
